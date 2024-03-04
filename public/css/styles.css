@@ -1,0 +1,73 @@
+/* css personalizado */
+.movie-box {
+    max-width: 40vw;
+    max-height: auto;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.row-equal-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-equal-height {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-equal-height .card {
+    flex: 1;
+}
+
+.col-equal-height .card-img-top {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.fa-film{
+    padding: 2%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form label {
+    font-weight: bold;
+}
+
+.custom-form input[type="text"],
+.custom-form input[type="number"],
+.custom-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.custom-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
